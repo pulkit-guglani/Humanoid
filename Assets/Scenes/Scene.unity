@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 261.9019, g: 324.4573, b: 429.4364, a: 1}
+  m_IndirectSpecularColor: {r: 262.3371, g: 325.05005, b: 430.21954, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -354,6 +354,185 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1379325380
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.9478655
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.325572
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.640767
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -644972969302742465, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: 0.000016673293
+      objectReference: {fileID: 0}
+    - target: {fileID: -644972969302742465, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: -0.00037190752
+      objectReference: {fileID: 0}
+    - target: {fileID: -644972969302742465, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: 0.0002441663
+      objectReference: {fileID: 0}
+    - target: {fileID: -644972969302742465, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.00064233807
+      objectReference: {fileID: 0}
+    - target: {fileID: -644972969302742465, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.0009375521
+      objectReference: {fileID: 0}
+    - target: {fileID: -644972969302742465, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.00094944524
+      objectReference: {fileID: 0}
+    - target: {fileID: -644972969302742465, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_Name
+      value: main export client
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1948015371177387820, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: 0.000016673293
+      objectReference: {fileID: 0}
+    - target: {fileID: 1948015371177387820, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: -0.00037190752
+      objectReference: {fileID: 0}
+    - target: {fileID: 1948015371177387820, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: 0.0002441663
+      objectReference: {fileID: 0}
+    - target: {fileID: 1948015371177387820, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.00064233807
+      objectReference: {fileID: 0}
+    - target: {fileID: 1948015371177387820, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.0009375521
+      objectReference: {fileID: 0}
+    - target: {fileID: 1948015371177387820, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.00094944524
+      objectReference: {fileID: 0}
+    - target: {fileID: 1948015371177387820, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381877801654986754, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: 0.000016673293
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381877801654986754, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: -0.00037190752
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381877801654986754, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: 0.0002441663
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381877801654986754, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.00064233807
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381877801654986754, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.0009375521
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381877801654986754, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.00094944524
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381877801654986754, guid: 5de9643b416675a42ba77b801a3bc62c,
+        type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5de9643b416675a42ba77b801a3bc62c, type: 3}
 --- !u!1 &1899169081
 GameObject:
   m_ObjectHideFlags: 0
@@ -1258,7 +1437,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &927674155934555057
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2183,7 +2362,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &2109231914613286676
 GameObject:
   m_ObjectHideFlags: 0
@@ -7431,7 +7610,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &8264412290920485495
 MonoBehaviour:
   m_ObjectHideFlags: 0
