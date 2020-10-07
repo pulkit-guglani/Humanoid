@@ -1199,8 +1199,8 @@ MonoBehaviour:
     textComponent: {fileID: 487755666}
     characterCount: 73
     spriteCount: 0
-    spaceCount: 11
-    wordCount: 12
+    spaceCount: 12
+    wordCount: 13
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -11369,7 +11369,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8264412292201154136}
-  m_LocalRotation: {x: -0.6830396, y: -0.019113403, z: -0.017886005, w: 0.7299121}
+  m_LocalRotation: {x: -0.6832257, y: 0.008665525, z: 0.0081090545, w: 0.7301109}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 100.9675, y: 100.967575, z: 100.967575}
   m_Children:
@@ -11379,7 +11379,7 @@ Transform:
   - {fileID: 1714410488980819004}
   m_Father: {fileID: 2031434398}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -86.2, y: -3, z: 0}
+  m_LocalEulerAnglesHint: {x: -86.2, y: 1.36, z: 0}
 --- !u!1 &8702222753703176874
 GameObject:
   m_ObjectHideFlags: 0
