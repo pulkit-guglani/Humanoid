@@ -10280,7 +10280,7 @@ MonoBehaviour:
   waitForAudioSource: 0
   audioSourceWaitTarget: {fileID: 0}
   useExternalAnalysis: 0
-  audioUpdateDelay: 0.021825
+  audioUpdateDelay: 0.001
   analysisValue: 0
   loCutoff: 0.049444743
   hiCutoff: 0.5960232
@@ -10301,9 +10301,9 @@ MonoBehaviour:
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.05
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.0725
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -10369,9 +10369,9 @@ MonoBehaviour:
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.05
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.0725
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -10437,9 +10437,9 @@ MonoBehaviour:
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.08
+        durationOn: 0.05
         durationHold: 0
-        durationOff: 0.06
+        durationOff: 0.0725
         isSmoothDisable: 0
         isPersistent: 0
         expressionType: 0
@@ -10501,7 +10501,7 @@ MonoBehaviour:
   emphasizerTrigger: 0.7
   scaleExternalAnalysis: 0
   useAdvDyn: 1
-  advDynPrimaryBias: 0.257
+  advDynPrimaryBias: 0.1
   useAdvDynJitter: 0
   advDynJitterAmount: 0.2
   advDynJitterProb: 0.5
@@ -10516,12 +10516,12 @@ MonoBehaviour:
   dynaVariEasing: 4
   usePersistence: 0
   useMergeBack: 0
-  useTimingsOverride: 1
-  globalDurON: 0.025
-  globalDurOFF: 0.042
-  globalDurOffBalance: 0.68
-  originalUpdateDelay: 0.08
-  globalNuanceBalance: -0.127
+  useTimingsOverride: 0
+  globalDurON: 0.05
+  globalDurOFF: 0.0725
+  globalDurOffBalance: 0.45
+  originalUpdateDelay: 0
+  globalNuanceBalance: 0.08
   useEasingOverride: 0
   globalEasing: 4
   configReady: 1
