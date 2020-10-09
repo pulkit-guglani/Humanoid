@@ -5,13 +5,15 @@ using UnityEngine.Networking;
 
 public class FileBrowserTest : MonoBehaviour
 {
-	AudioSource audioSource;
+	[SerializeField] AudioSource salsaAudioSource;
+	[SerializeField] AudioSource normalAudioSource;
+
 	// Warning: paths returned by FileBrowser dialogs do not contain a trailing '\' character
 	// Warning: FileBrowser can only show 1 dialog at a time
 
 	void Start()
 	{
-		audioSource = FindObjectOfType<AudioSource>();
+		
 		// Set filters (optional)
 		// It is sufficient to set the filters just once (instead of each time before showing the file browser dialog), 
 		// if all the dialogs will be using the same filters
@@ -103,7 +105,8 @@ public class FileBrowserTest : MonoBehaviour
 			{
 				AudioClip myClip = DownloadHandlerAudioClip.GetContent(www);
 				//AudioClip audioClip = Resources.Load<AudioClip>(FileBrowser.Result[0]);
-				audioSource.clip = myClip;
+				normalAudioSource.clip = myClip;
+				salsaAudioSource.clip = myClip;
 				//transform.GetComponent<AudioSource>().clip = myClip;
 				//transform.GetComponent<AudioSource>().Play();
 			}

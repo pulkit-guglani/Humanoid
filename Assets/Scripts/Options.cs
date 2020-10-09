@@ -2,13 +2,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Options : MonoBehaviour
 {
     [SerializeField] GameObject options;
     [SerializeField] Salsa salsa;
+    [SerializeField] AudioSource normalAudioSource;
+    [SerializeField] TMP_InputField delayText;
+
     FileBrowserTest fileBrowser;
+    float delayTime = 0.2f;
     // Start is called before the first frame update
 
 
@@ -23,13 +29,16 @@ public class Options : MonoBehaviour
     public void OnPlayClick()
     {
         salsa.audioSrc.Play();
+        StartCoroutine(PlayDelay());
     }
     public void OnPauseClick()
     {
+        normalAudioSource.Pause();
         salsa.audioSrc.Pause();
     }
     public void OnStopClick()
     {
+        normalAudioSource.Stop();
         salsa.audioSrc.Stop();
     }
     public void OnUploadClick()
@@ -37,5 +46,29 @@ public class Options : MonoBehaviour
         fileBrowser.LoadFile();
     }
 
+    public void OnDelaySubmitButtonClick()
+    {
+        float seconds;
+        bool isNumeric = float.TryParse(delayText.text, out seconds);
+       
+        if(isNumeric)
+        {
+            delayTime = seconds;
+            OnStopClick();
+            OnPlayClick();
+        }
+    }
+
+   IEnumerator PlayDelay()
+    {
+
+        yield return new WaitForSeconds(delayTime);
+        
+        if(salsa.audioSrc.isPlaying)
+        {
+            normalAudioSource.Play();
+        }
+
+    }
   
 }
