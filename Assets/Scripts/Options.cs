@@ -15,8 +15,6 @@ public class Options : MonoBehaviour
 
     FileBrowserTest fileBrowser;
     float delayTime = 0.2f;
-    // Start is called before the first frame update
-
 
     private void Start()
     {
@@ -44,6 +42,11 @@ public class Options : MonoBehaviour
     public void OnUploadClick()
     {
         fileBrowser.LoadFile();
+    }
+    public void OnExitClick()
+    {
+        Debug.Log("Exit");
+        Application.Quit();
     }
 
     public void OnDelaySubmitButtonClick()
