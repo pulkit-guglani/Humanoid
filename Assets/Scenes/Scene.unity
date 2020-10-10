@@ -10938,7 +10938,7 @@ MonoBehaviour:
   waitForAudioSource: 0
   audioSourceWaitTarget: {fileID: 0}
   useExternalAnalysis: 0
-  audioUpdateDelay: 0.017
+  audioUpdateDelay: 0.053949997
   analysisValue: 0
   loCutoff: 0.07363829
   hiCutoff: 0.5960232
@@ -10947,7 +10947,7 @@ MonoBehaviour:
   autoAdjustMicrophone: 0
   microphone: 
   microphoneRecordHeadPointer: 0
-  silencePulseThreshold: 2
+  silencePulseThreshold: 4
   queueProcessor: {fileID: 8264412292201154137}
   visemes:
   - expData:
@@ -10959,13 +10959,13 @@ MonoBehaviour:
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.05
+        durationOn: 0.065
         durationHold: 0
-        durationOff: 0.0725
+        durationOff: 0.0468
         isSmoothDisable: 0
-        isPersistent: 0
+        isPersistent: 1
         expressionType: 0
-        easing: 4
+        easing: 5
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
@@ -11027,13 +11027,13 @@ MonoBehaviour:
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.05
+        durationOn: 0.065
         durationHold: 0
-        durationOff: 0.0725
+        durationOff: 0.0468
         isSmoothDisable: 0
-        isPersistent: 0
+        isPersistent: 1
         expressionType: 0
-        easing: 4
+        easing: 5
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
@@ -11095,13 +11095,13 @@ MonoBehaviour:
         emoteControlType: 0
         eyesControlType: 1
         durationDelay: 0
-        durationOn: 0.05
+        durationOn: 0.065
         durationHold: 0
-        durationOff: 0.0725
+        durationOff: 0.0468
         isSmoothDisable: 0
-        isPersistent: 0
+        isPersistent: 1
         expressionType: 0
-        easing: 4
+        easing: 5
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
@@ -11172,16 +11172,16 @@ MonoBehaviour:
   dynaVariHold: 0
   dynaVariOff: 0.067
   dynaVariEasing: 4
-  usePersistence: 0
+  usePersistence: 1
   useMergeBack: 0
   useTimingsOverride: 0
-  globalDurON: 0.05
-  globalDurOFF: 0.0725
-  globalDurOffBalance: 0.45
-  originalUpdateDelay: 0
-  globalNuanceBalance: 0.08
+  globalDurON: 0.065
+  globalDurOFF: 0.0468
+  globalDurOffBalance: -0.28
+  originalUpdateDelay: 0.017
+  globalNuanceBalance: -0.17
   useEasingOverride: 0
-  globalEasing: 4
+  globalEasing: 5
   configReady: 1
   inspStateFoldoutProcessing: 1
   inspStateFoldoutSettings: 1
