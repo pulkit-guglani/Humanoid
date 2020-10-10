@@ -62,6 +62,11 @@ public class Options : MonoBehaviour
         }
     }
 
+    public void OnExitButtonClick()
+    {
+        Application.Quit();
+    }
+
    IEnumerator PlayDelay()
     {
 

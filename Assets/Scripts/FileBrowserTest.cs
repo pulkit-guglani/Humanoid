@@ -18,12 +18,14 @@ public class FileBrowserTest : MonoBehaviour
 		// It is sufficient to set the filters just once (instead of each time before showing the file browser dialog), 
 		// if all the dialogs will be using the same filters
 		//FileBrowser.SetFilters(true, new FileBrowser.Filter("Images", ".jpg", ".png",".mp3"), new FileBrowser.Filter("Text Files", ".txt", ".pdf"), new FileBrowser.Filter("Audio",".mp3",".wav"));
-		FileBrowser.SetFilters(true,new FileBrowser.Filter("Audio", ".mp3", ".wav"));
+		FileBrowser.SetFilters(true,new FileBrowser.Filter("Audio", ".wav"));
 
 		// Set default filter that is selected when the dialog is shown (optional)
 		// Returns true if the default filter is set successfully
 		// In this case, set Images filter as the default filter
-		FileBrowser.SetDefaultFilter("Audio");
+			FileBrowser.SetDefaultFilter("Audio");
+	
+
 
 		// Set excluded file extensions (optional) (by default, .lnk and .tmp extensions are excluded)
 		// Note that when you use this function, .lnk and .tmp extensions will no longer be
