@@ -3,7 +3,7 @@ using System.Collections;
 using SimpleFileBrowser;
 using UnityEngine.Networking;
 
-public class FileBrowserTest : MonoBehaviour
+public class FileBrowserForAudioFile : MonoBehaviour
 {
 	[SerializeField] AudioSource salsaAudioSource;
 	[SerializeField] AudioSource normalAudioSource;

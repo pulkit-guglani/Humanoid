@@ -13,12 +13,12 @@ public class Options : MonoBehaviour
     [SerializeField] AudioSource normalAudioSource;
     [SerializeField] TMP_InputField delayText;
 
-    FileBrowserTest fileBrowser;
+    FileBrowserForAudioFile fileBrowser;
     float delayTime = 0.2f;
 
     private void Start()
     {
-        fileBrowser = GetComponent<FileBrowserTest>();
+        fileBrowser = GetComponent<FileBrowserForAudioFile>();
     }
     public void OnOptionClick()
     {
