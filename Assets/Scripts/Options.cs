@@ -29,8 +29,23 @@ public class Options : MonoBehaviour
         salsa.audioSrc.Play();
         StartCoroutine(PlayDelay());
     }
+    public void OnContinuousPlayClick()
+    {
+        if(Time.timeScale == 0)
+        {
+            Time.timeScale = 1;
+        }
+
+        FindObjectOfType<PlayAudioContinuously>().PlayContinuously(delayTime);
+    }
     public void OnPauseClick()
     {
+        normalAudioSource.Pause();
+        salsa.audioSrc.Pause();
+    }
+    public void OnContinuousStopClick()
+    {
+        Time.timeScale = 0;
         normalAudioSource.Pause();
         salsa.audioSrc.Pause();
     }
