@@ -34,7 +34,7 @@ public class LoadTextFile : MonoBehaviour
         {
             a = File.ReadAllText(d.FullName + "/File"+i+".txt");
             texts.Add(a);
-            print(a);
+           
         }
 
         var TTS = FindObjectOfType<TextToAudioFile>();

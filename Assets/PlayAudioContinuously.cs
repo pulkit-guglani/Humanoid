@@ -1,17 +1,20 @@
 ﻿using CrazyMinnow.SALSA;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 
 public class PlayAudioContinuously : MonoBehaviour
 {
-	public List<AudioClip> audioClips;
+	private List<AudioClip> audioClips;
 	[SerializeField]
 	private Button playButton;
 	[SerializeField] Salsa salsa;
 	[SerializeField] AudioSource normalAudioSource;
+	[SerializeField]
+	private TMP_InputField heading;
 	// Start is called before the first frame update
 	void Start()
     {
@@ -57,8 +60,10 @@ public class PlayAudioContinuously : MonoBehaviour
 
 	IEnumerator PlayEachAudio(float delay)
     {
+		
 		for(int i = 0; i < audioClips.Count; i++)
         {
+			heading.text = TextToAudioFile.Headings[i];
 			salsa.audioSrc.clip = audioClips[i];
 			normalAudioSource.clip = audioClips[i];
 
