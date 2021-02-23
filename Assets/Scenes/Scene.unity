@@ -895,7 +895,8 @@ MonoBehaviour:
   playButton: {fileID: 1184049134}
   salsa: {fileID: 8264412292201154139}
   normalAudioSource: {fileID: 803631737}
-  heading: {fileID: 165939300}
+  headline: {fileID: 165939300}
+  heading: {fileID: 10273314}
 --- !u!4 &229547442
 Transform:
   m_ObjectHideFlags: 0
@@ -2036,14 +2037,12 @@ VideoPlayer:
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 0
@@ -2696,14 +2695,12 @@ VideoPlayer:
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 0
@@ -2721,7 +2718,7 @@ GameObject:
   - component: {fileID: 941708198}
   - component: {fileID: 941708197}
   m_Layer: 5
-  m_Name: NewsPanel
+  m_Name: NewsHeadlinePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3523,7 +3520,7 @@ GameObject:
   - component: {fileID: 1170655927}
   - component: {fileID: 1170655926}
   m_Layer: 5
-  m_Name: HeadlinePanel
+  m_Name: HeadingPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8860,6 +8857,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: VideoPlayerQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237968292206003079, guid: 7b9e98d2026990042806630135073a9f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b9e98d2026990042806630135073a9f, type: 3}

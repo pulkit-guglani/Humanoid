@@ -17,7 +17,8 @@ public class TextToAudioFile : MonoBehaviour
     
     [SerializeField]
     private Voices selectVoice;
-    public static List<string> Headings;
+    public static List<string> Heading;
+    public static List<string> Headline;
 
     private static Voices voice;
     // Start is called before the first frame update
@@ -29,7 +30,8 @@ public class TextToAudioFile : MonoBehaviour
     private void Start()
     {
         voice = selectVoice;
-        Headings = new List<string>();
+        Headline = new List<string>();
+        Heading = new List<string>();
     }
 
     public async void ConvertTextToAudio(List<string> files,string path)
@@ -49,10 +51,11 @@ public class TextToAudioFile : MonoBehaviour
             var XML1 = Resources.Load<TextAsset>("Text/XML1");
             var XML2 = Resources.Load<TextAsset>("Text/XML2");
             var XML3 = Resources.Load<TextAsset>("Text/XML3");
+
             List<string> separtedText = GetSeparatedText(files[i - 1]);
-            print("Heading :" + separtedText[0]);
-            Headings.Add(separtedText[0]);
-            string XMLFinal = XML1.text + voicesName[(int)voice] + XML2.text + separtedText[1] + XML3.text;
+            Heading.Add(separtedText[0]);
+            Headline.Add(separtedText[1]);
+            string XMLFinal = XML1.text + voicesName[(int)voice] + XML2.text + separtedText[2] + XML3.text;
            
              print(XMLFinal);
           
@@ -71,6 +74,7 @@ public class TextToAudioFile : MonoBehaviour
 
         List<string> separatedText = new List<string>
         {
+            reader.ReadLine(),
             reader.ReadLine(),
             reader.ReadToEnd()
         };
