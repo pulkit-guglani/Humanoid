@@ -310,7 +310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &132749657
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -366,8 +366,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132749656}
   m_LocalRotation: {x: -0, y: -0.9982746, z: -0, w: 0.058718733}
-  m_LocalPosition: {x: 2.682, y: -0.026, z: -11.709}
-  m_LocalScale: {x: 2.3699, y: 2.3699, z: 2.3699}
+  m_LocalPosition: {x: 2.68, y: -0.04, z: -11.73}
+  m_LocalScale: {x: 2.0916545, y: 1.0029176, z: 2.3699}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
@@ -1822,7 +1822,7 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
 --- !u!4 &783203924
@@ -8365,18 +8365,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4237968292206003075, guid: 7b9e98d2026990042806630135073a9f,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.6258951
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237968292206003075, guid: 7b9e98d2026990042806630135073a9f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.89255655
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237968292206003075, guid: 7b9e98d2026990042806630135073a9f,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.685
+      value: 2.723
       objectReference: {fileID: 0}
     - target: {fileID: 4237968292206003075, guid: 7b9e98d2026990042806630135073a9f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.035
+      value: -0.101
       objectReference: {fileID: 0}
     - target: {fileID: 4237968292206003075, guid: 7b9e98d2026990042806630135073a9f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.68
+      value: -11.687
       objectReference: {fileID: 0}
     - target: {fileID: 4237968292206003075, guid: 7b9e98d2026990042806630135073a9f,
         type: 3}
