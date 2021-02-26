@@ -1,0 +1,17 @@
+Step (1): 
+Goto "C:/ProgramData/Humanoid/"
+
+Step (2):
+Create a folder there, name it "TextFiles"
+
+Step (3):
+Add a file called "File1.txt" 
+(note the capital F)
+(Name all the consecutive files as "File2.txt", "File3.txt", and so on)
+
+Step (4):
+Enter data in File.txt using line breaks as follows:
+
+Heading1
+This is news 1
+The cryptocurrency ether hit a fresh all-time high on Friday, surging past $1,700 for the first time.
