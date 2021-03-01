@@ -17,6 +17,9 @@ public class PlayAudioContinuously : MonoBehaviour
 	private TMP_InputField headline;
 	[SerializeField]
 	private TMP_InputField heading;
+
+	[SerializeField]
+	private bool toLoop = true;
 	// Start is called before the first frame update
 	void Start()
     {
@@ -62,22 +65,24 @@ public class PlayAudioContinuously : MonoBehaviour
 
 	IEnumerator PlayEachAudio(float delay)
     {
-		
-		for(int i = 0; i < audioClips.Count; i++)
-        {
-			headline.text = TextToAudioFile.Headline[i];
-			heading.text = TextToAudioFile.Heading[i];
-			salsa.audioSrc.clip = audioClips[i];
-			normalAudioSource.clip = audioClips[i];
-
-			salsa.audioSrc.Play();
-			yield return new WaitForSeconds(delay);
-
-			if (salsa.audioSrc.isPlaying)
+		while (toLoop)
+		{
+			for (int i = 0; i < audioClips.Count; i++)
 			{
-				normalAudioSource.Play();
+				headline.text = TextToAudioFile.Headline[i];
+				heading.text = TextToAudioFile.Heading[i];
+				salsa.audioSrc.clip = audioClips[i];
+				normalAudioSource.clip = audioClips[i];
+
+				salsa.audioSrc.Play();
+				yield return new WaitForSeconds(delay);
+
+				if (salsa.audioSrc.isPlaying)
+				{
+					normalAudioSource.Play();
+				}
+				yield return new WaitForSeconds(audioClips[i].length);
 			}
-			yield return new WaitForSeconds(audioClips[i].length);
-        }
+		}
     }
 }
